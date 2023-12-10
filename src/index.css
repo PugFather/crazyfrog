@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section_heading {
+    @apply text-[2.875rem] font-bold sm:text-7xl;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header .header__links.active {
+    transition: 0.3s all;
+    transform: translateX(0%);
+  }
+}
+
+header .header__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 64px;
+}
+
+@media screen and (max-width: 640px) {
+  header .header__links {
+    transform: translateY(-102%);
+    transition: 0.3s all;
+    border-radius: 40px;
+    border-bottom: 4px solid var(--f-8-f-7-ff, #f8f6ff);
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 67.7px 0px #000;
+    backdrop-filter: blur(7.75px);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    padding: 20px 18px;
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .header__links .links__link {
+    width: 100%;
+    font-size: 36px;
+  }
+}
+
+section.features .grad::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -164px;
+  max-width: 883.726px;
+  width: 100%;
+  height: 512.011px;
+  border-radius: 883.726px;
+  opacity: 0.2;
+  background: linear-gradient(
+    99deg,
+    #40c9a2 1.93%,
+    #3e54c8 47.51%,
+    #40c9a2 96.04%
+  );
+  filter: blur(108.0999984741px);
+  z-index: -1;
+}
+
+section.features .grad::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: -200px;
+  max-width: 400px;
+  max-height: 400px;
+  height: 100%;
+  width: 100%;
+  border-radius: 702.76px;
+  opacity: 0.2;
+  background: #2ebae6;
+  filter: blur(108.0999984741px);
+  z-index: -1;
+}
+
+section.token .grad::after {
+  z-index: -1;
+  content: "";
+  top: -300px;
+  border-radius: 1312.954px;
+  opacity: 0.26;
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #2f9c95 96.04%)
+  );
+  position: absolute;
+  filter: blur(108.0999984741px);
+  max-width: 283.716px;
+  width: 100%;
+  height: 1312.954px;
+  transform: rotate(89.541deg);
+}
+
+.list__block {
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+}
+
+footer {
+  background: var(
+    --Linear,
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+  );
+}
+
+footer::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  border-radius: 1744.768px;
+  opacity: 0.26;
+  background: var(
+    --Linear,
+    linear-gradient(99deg, #358db7 1.93%, #40607f 47.51%, #00cda7 96.04%)
+  );
+  filter: blur(108.0999984741px);
+  max-width: 1744.768px;
+  max-height: 341.704px;
+  height: 100%;
+  width: 100%;
+}
