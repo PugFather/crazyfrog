@@ -3,7 +3,7 @@ import Image from "../assets/img_about.png";
 
 const About = () => {
   return (
-    <section className="mb-[15.25rem]">
+    <section className="mb-[15.25rem]  overflow-x-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
         <img
           src={Image}

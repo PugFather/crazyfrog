@@ -5,7 +5,7 @@ import Tg from "../assets/social_tg.png";
 
 const Social = () => {
   return (
-    <section id="social" className="mb-[17rem]">
+    <section id="social" className="mb-[17rem] overflow-x-hidden">
       <div className="m mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] sm:flex-row">
         <img
           src={Image}

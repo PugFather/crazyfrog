@@ -2,7 +2,7 @@ import React from "react";
 
 const Features = () => {
   return (
-    <section className="features mb-[17rem]">
+    <section className="features mb-[17rem] overflow-x-hidden">
       <div className="grad relative mx-auto w-full max-w-[1276px] px-[15px]">
         <div className="section_heading mb-16 flex items-end justify-start gap-8">
           Features

@@ -3,7 +3,7 @@ import Image from "../assets/mayan.png";
 
 const HowToBuy2 = () => {
   return (
-    <section className="mb-[15.25rem]">
+    <section className="mb-[15.25rem] overflow-x-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-center justify-center gap-10 px-[15px] sm:flex-row sm:items-start">
         <img
           src={Image}
