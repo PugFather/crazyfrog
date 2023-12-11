@@ -3,7 +3,7 @@ import Image from "../assets/img_howToBuy.png";
 
 const HowToBuy = () => {
   return (
-    <section className="mb-[8rem] overflow-x-hidden md:mb-2">
+    <section className="mb-[8rem] overflow-hidden md:mb-2">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
         <div className="flex grow flex-col items-start gap-8">
           <div className="section_heading">How to buy $CF</div>

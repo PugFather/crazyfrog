@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const Faq = () => {
   return (
-    <section className="mb-[15.25rem] overflow-x-hidden">
+    <section className="mb-[15.25rem] overflow-hidden">
       <div className="mx-auto w-full max-w-[1276px] px-[15px]">
         <div className="section_heading mb-16 flex w-full items-end justify-start gap-8">
           FAQ
