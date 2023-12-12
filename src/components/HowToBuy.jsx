@@ -3,14 +3,14 @@ import Image from "../assets/img_howToBuy.png";
 
 const HowToBuy = () => {
   return (
-    <section className="mb-[8rem] overflow-hidden md:mb-2">
+    <section className="mb-[8rem] md:mb-2">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
         <div className="flex grow flex-col items-start gap-8">
           <div className="section_heading">How to buy $CF</div>
           <img
             src={Image}
             alt="crazyfrog"
-            className="ml-28 w-full max-w-xl overflow-hidden md:hidden"
+            className="ml-10 w-full max-w-xl overflow-hidden sm:ml-20 md:hidden"
           />
           <div className="-mt-20 text-xl md:mt-0">
             To buy $CF, get phantom wallet, Purchase $SOL and send it to your
