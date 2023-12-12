@@ -2,8 +2,25 @@ import React from "react";
 import Accordion from "./Accordion";
 
 const Faq = () => {
+  const faqItems = [
+    {
+      title: "How do I Buy and Sell $CF?",
+      content:
+        "Trade $CF on our listed Centralised Exchanges or Decentralised Exchanges like Raydium and Jupiter. You can also Buy from our website with Mayan",
+    },
+    {
+      title: "Is there a $CF whitepaper or roadmap available?",
+      content: "Yes, you can access our whitepaper [here]",
+    },
+    {
+      title: "Will $CF list on more CEX's?",
+      content: "Yes, $CF will soon be available on major worldwide exchanges.",
+    },
+    // Add more items as needed
+  ];
+
   return (
-    <section className="mb-[15.25rem] overflow-hidden">
+    <section className="mb-[15.25rem] overflow-hidden lg:mb-[22rem]">
       <div className="mx-auto w-full max-w-[1276px] px-[15px]">
         <div className="section_heading mb-16 flex w-full items-end justify-start gap-8">
           FAQ
@@ -178,8 +195,9 @@ const Faq = () => {
         </div>
 
         <div className="flex w-full flex-col gap-8">
-          <Accordion title="How to Buy" content="Go to uniswap" />
-          <Accordion title="How to Sell" content="Go to sushiswap" />
+          {faqItems.map((item, index) => (
+            <Accordion key={index} title={item.title} content={item.content} />
+          ))}
         </div>
       </div>
     </section>

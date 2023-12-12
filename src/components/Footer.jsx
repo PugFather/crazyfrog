@@ -10,8 +10,11 @@ const Footer = () => {
       <div className="relative z-0 flex w-full max-w-[1276px] flex-col items-center px-[15px] pb-[600px] pt-[7.375rem] sm:items-start sm:pb-0">
         <div className="mb-5 flex w-full max-w-[48.25rem] flex-col items-center justify-center gap-16 text-center sm:flex-row sm:items-start sm:text-left">
           <img src={Logo} className="w-64" alt="logo" />
-          MYRO is more than just a cryptocurrency, it is also a way to connect
-          with other dog meme lovers and make
+          Jump into the CrazyFrog community, where we celebrate the enduring
+          legacy of Crazy Frog. Embrace the fun and inclusivity while
+          recognizing that $CF is a meme coin designed purely for entertainment
+          and community engagement. <br />
+          Let's get crazy together with $CF.
         </div>
         <div className="mb-20 flex items-center justify-start gap-4">
           <a href="" target="_blank">

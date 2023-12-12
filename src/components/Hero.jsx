@@ -19,8 +19,8 @@ const Hero = () => {
           <img src={CrazyFrog} className="w-full max-w-xl" />
         </h1>
         <h3 className="mb-8 text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Ea,
-          illum.
+          Elevating a Timeless Legacy on Solana <br /> The Unstoppable Journey
+          of Crazy Frog.
         </h3>
         <div className="flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row sm:justify-center">
           <a className="flex w-full cursor-pointer items-center justify-center gap-[10px] rounded-3xl bg-[#f8f6ff] px-5 py-[0.875rem] text-xl font-medium text-[#050505] transition-all duration-300 hover:opacity-50 sm:w-fit">

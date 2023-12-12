@@ -22,14 +22,12 @@ const Features = () => {
                   fill="#F8F7FF"
                 ></path>
               </svg>
-              <div className="text-4xl font-bold">CF Buy Bot</div>
+              <div className="text-4xl font-bold">CrazyBot</div>
               <div className="text-xl">
-                Solana's first public BuyBot on Telegram. Promoting
-                cross-pollination and offering free exposure through "MYRO
-                Trending". As adoption grows, a small fee for trending will be
-                introduced, with a chance for free inclusion. Generated revenue
-                feeds into the Treat Jar (Treasury) for transparency,
-                contributing to $MYRO's growth.
+                CrazyFrog's innovative "Degen Mode" in its CrazyBot scrutinizes
+                new tokens, offering real-time insights to shield users from
+                scams and rug pulls, ensuring safer investments in the dynamic
+                crypto market.
               </div>
             </div>
             <a className="group flex cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff]">
@@ -64,14 +62,11 @@ const Features = () => {
                   fill="#F8F7FF"
                 ></path>
               </svg>
-              <div className="text-4xl font-bold">CF Buy Bot</div>
+              <div className="text-4xl font-bold">Staking</div>
               <div className="text-xl">
-                Solana's first public BuyBot on Telegram. Promoting
-                cross-pollination and offering free exposure through "MYRO
-                Trending". As adoption grows, a small fee for trending will be
-                introduced, with a chance for free inclusion. Generated revenue
-                feeds into the Treat Jar (Treasury) for transparency,
-                contributing to $MYRO's growth.
+                Seamlessly stake $CF coins for amplified returns while actively
+                contributing to Solana's decentralization, providing hassle-free
+                and secure investment opportunities.
               </div>
             </div>
             <a className="group flex cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff]">
@@ -106,14 +101,11 @@ const Features = () => {
                   fill="#F8F7FF"
                 ></path>
               </svg>
-              <div className="text-4xl font-bold">CF Buy Bot</div>
+              <div className="text-4xl font-bold">Further Utilities</div>
               <div className="text-xl">
-                Solana's first public BuyBot on Telegram. Promoting
-                cross-pollination and offering free exposure through "MYRO
-                Trending". As adoption grows, a small fee for trending will be
-                introduced, with a chance for free inclusion. Generated revenue
-                feeds into the Treat Jar (Treasury) for transparency,
-                contributing to $MYRO's growth.
+                Anticipate CrazyFrog's evolution with upcoming essential
+                utilities tailored to the changing needs of users, contributing
+                dynamically to Solana's sustained growth.
               </div>
             </div>
             <a className="group flex cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff]">
