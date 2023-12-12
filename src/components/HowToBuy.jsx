@@ -10,14 +10,14 @@ const HowToBuy = () => {
           <img
             src={Image}
             alt="crazyfrog"
-            className="w-full max-w-xl overflow-hidden md:hidden"
+            className="ml-28 w-full max-w-xl overflow-hidden md:hidden"
           />
           <div className="-mt-20 text-xl md:mt-0">
             To buy $CF, get phantom wallet, Purchase $SOL and send it to your
             Phantom wallet. Then simply swap $SOL to $CF on Raydium.
           </div>
           <div className="flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row">
-            <a className="group flex w-full cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:bg-[#f8f6ff] sm:w-fit">
+            <a className="group flex w-full grow cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:bg-[#f8f6ff] sm:w-fit">
               <span className="group-hover:text-[#050505]">Learn more</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ const HowToBuy = () => {
                 ></path>
               </svg>
             </a>
-            <a className="flex w-full cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 border-[#f8f6ff] bg-gradient-to-r from-[#0866B5] via-[#7EB89D] to-[#36F19A] px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:opacity-50 sm:w-fit">
+            <a className="flex w-full grow cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 border-[#f8f6ff] bg-gradient-to-r from-[#0866B5] via-[#7EB89D] to-[#36F19A] px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:opacity-50 sm:w-fit">
               Buy on Raydium{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
