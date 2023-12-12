@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 @layer components {
   .section_heading {
     @apply text-[2.875rem] font-bold sm:text-7xl;

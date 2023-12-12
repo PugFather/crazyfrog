@@ -10,7 +10,7 @@ const About = () => {
           alt="crazyfrog"
           className="-mt-10 w-full max-w-[32.25rem]"
         />
-        <div className="flex w-full max-w-[38.35rem] flex-col items-start gap-8">
+        <div className="flex w-full flex-col items-start gap-8">
           <div className="section_heading">About $CF</div>
           <div className="text-xl ">
             Lorem ipsum dolor sit amet consectetur adipiscing elit dolor semper
