@@ -15,7 +15,7 @@ const Tokenomics = () => {
   };
 
   return (
-    <section id="tokenomics" className="token mb-[15.25rem] overflow-hidden">
+    <section id="tokenomics" className="token mb-[15.25rem]">
       <div className=" grad relative mx-auto flex w-full max-w-[1276px] flex-col items-center px-[15px]">
         <div className="section_heading mb-16 flex w-full items-center justify-start gap-8">
           Tokenomics

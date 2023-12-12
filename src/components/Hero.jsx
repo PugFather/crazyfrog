@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className="mb-[10.25rem] mt-[16.25rem] sm:mb-[22rem]">
       <div className="relative mx-auto flex w-full max-w-[1276px] flex-col items-start px-[15px]">
-        <div className="absolute right-0 top-[-160px] -z-10 w-full max-w-[720px] lg:right-[-50px] ">
+        <div className="absolute right-0 top-[-160px] -z-10 w-full max-w-[720px]">
           <img src={Grad} className="absolute inset-0 -z-20" />
           <img src={Image} alt="crazyfrog" className="w-full" />
         </div>

@@ -6,7 +6,7 @@ import Image from "../assets/img_about.png";
 
 const Footer = () => {
   return (
-    <footer className="flex items-center justify-center overflow-hidden rounded-t-[80px] border-t-4 border-t-[#f8f6ff]">
+    <footer className="flex items-center justify-center rounded-t-[80px] border-t-4 border-t-[#f8f6ff]">
       <div className="relative z-0 flex w-full max-w-[1276px] flex-col items-center px-[15px] pb-[600px] pt-[7.375rem] sm:items-start sm:pb-0">
         <div className="mb-5 flex w-full max-w-[48.25rem] flex-col items-center justify-center gap-16 text-center sm:flex-row sm:items-start sm:text-left">
           <img src={Logo} className="w-64" alt="logo" />
