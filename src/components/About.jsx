@@ -1,16 +1,28 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 import Image from "../assets/img_about.png";
 
 const About = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Trigger the animation once
+    threshold: 0.2, // Adjust as needed
+  });
+
+  const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
+
   return (
     <section className="mb-[15.25rem]  overflow-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
         <img
           src={Image}
           alt="crazyfrog"
-          className="animate__animated animate__bounceIn -mt-10 w-full max-w-[32.25rem]"
+          className={`${animationClass} -mt-10 w-full max-w-[32.25rem]`}
+          ref={ref}
         />
-        <div className="animate__animated animate__bounceIn flex w-full flex-col items-start gap-8">
+        <div
+          className={`${animationClass} flex w-full flex-col items-start gap-8`}
+          ref={ref}
+        >
           <div className="section_heading">About $CF</div>
           <div className="text-xl ">
             CrazyFrog on Solana ($CF) is a vibrant homage to the iconic Crazy

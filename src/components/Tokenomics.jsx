@@ -1,4 +1,5 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Tokenomics = () => {
   const copyContent = () => {
@@ -14,6 +15,13 @@ const Tokenomics = () => {
     document.body.removeChild(el);
   };
 
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Trigger the animation once
+    threshold: 0.2, // Adjust as needed
+  });
+
+  const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
+
   return (
     <section id="tokenomics" className="token mb-[15.25rem]">
       <div className=" grad relative mx-auto flex w-full max-w-[1276px] flex-col items-center px-[15px]">
@@ -21,22 +29,34 @@ const Tokenomics = () => {
           Tokenomics
         </div>
         <div className="mb-8 grid w-full gap-8 sm:grid-cols-3">
-          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            ref={ref}
+            className={`${animationClass}  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+          >
             <div className="text-2xl font-bold sm:text-4xl">Symbol</div>
             <div className="text-xl sm:text-2xl">CF</div>
           </div>
 
-          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            ref={ref}
+            className={`${animationClass}  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+          >
             <div className="text-2xl font-bold sm:text-4xl">Tax</div>
             <div className="text-xl sm:text-2xl">0/0</div>
           </div>
 
-          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            ref={ref}
+            className={`${animationClass}  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+          >
             <div className="text-2xl font-bold sm:text-4xl">Liquidity</div>
             <div className="text-xl sm:text-2xl">Locked</div>
           </div>
         </div>
-        <div className="flex w-full flex-wrap items-center justify-between gap-3 rounded-3xl border-4 border-[#f8f6ff] p-8 animate__animated animate__bounceIn">
+        <div
+          ref={ref}
+          className={`${animationClass} flex w-full flex-wrap items-center justify-between gap-3 rounded-3xl border-4 border-[#f8f6ff] p-8`}
+        >
           <div className="text-2xl font-bold sm:text-4xl">Token Address</div>
           <div className="flex items-center justify-end gap-4 overflow-hidden text-xl sm:text-2xl">
             <p className="truncate">

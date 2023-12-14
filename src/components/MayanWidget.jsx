@@ -11,7 +11,7 @@ export default function Widget() {
         appIdentity: {
           name: "CrazyFrog",
           icon: "./logo.png",
-          uri: "https://myproject.io",
+          uri: "https://crazyfrog-five.vercel.app",
         },
       };
       mayan.current.init("mayanContainer", config);
