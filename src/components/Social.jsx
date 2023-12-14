@@ -11,9 +11,9 @@ const Social = () => {
         <img
           src={Image}
           alt="social media handles"
-          className="order-2 sm:order-1 sm:w-1/2"
+          className="order-2 sm:order-1 sm:w-1/2 animate__animated animate__bounceIn"
         />
-        <div className="order-1 sm:order-2 sm:w-1/2">
+        <div className="order-1 sm:order-2 sm:w-1/2 animate__animated animate__bounceIn">
           <div className="section_heading mb-8">Follow CF on social media</div>
           <div className="flex items-center justify-start gap-4">
             <a

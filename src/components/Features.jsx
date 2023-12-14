@@ -8,7 +8,7 @@ const Features = () => {
           Features
         </div>
         <div className="grid gap-8 sm:grid-cols-3">
-          <div className="flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const Features = () => {
               </svg>
             </a>
           </div>
-          <div className="flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +87,7 @@ const Features = () => {
               </svg>
             </a>
           </div>
-          <div className="flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

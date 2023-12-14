@@ -8,9 +8,9 @@ const About = () => {
         <img
           src={Image}
           alt="crazyfrog"
-          className="-mt-10 w-full max-w-[32.25rem]"
+          className="animate__animated animate__bounceIn -mt-10 w-full max-w-[32.25rem]"
         />
-        <div className="flex w-full flex-col items-start gap-8">
+        <div className="animate__animated animate__bounceIn flex w-full flex-col items-start gap-8">
           <div className="section_heading">About $CF</div>
           <div className="text-xl ">
             CrazyFrog on Solana ($CF) is a vibrant homage to the iconic Crazy

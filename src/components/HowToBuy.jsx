@@ -6,17 +6,19 @@ const HowToBuy = () => {
     <section className="mb-[8rem] md:mb-2">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
         <div className="flex grow flex-col items-start gap-8">
-          <div className="section_heading">How to buy $CF</div>
+          <div className="section_heading animate__animated animate__bounceIn">
+            How to buy $CF
+          </div>
           <img
             src={Image}
             alt="crazyfrog"
-            className="ml-10 w-full max-w-xl overflow-hidden sm:ml-20 md:hidden"
+            className="animate__animated animate__bounceIn ml-10 w-full max-w-xl overflow-hidden sm:ml-20 md:hidden"
           />
-          <div className="-mt-20 text-xl md:mt-0">
+          <div className="animate__animated animate__bounceIn -mt-20 text-xl md:mt-0">
             To buy $CF, get phantom wallet, Purchase $SOL and send it to your
             Phantom wallet. Then simply swap $SOL to $CF on Raydium.
           </div>
-          <div className="flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row">
+          <div className="flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row animate__animated animate__bounceIn">
             <a className="group flex w-full grow cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:bg-[#f8f6ff] sm:w-fit">
               <span className="group-hover:text-[#050505]">Learn more</span>
               <svg
@@ -53,7 +55,7 @@ const HowToBuy = () => {
         <img
           src={Image}
           alt="crazyfrog"
-          className="-mr-32 -mt-36 hidden max-w-2xl grow md:block"
+          className="-mr-32 -mt-36 hidden max-w-2xl grow md:block animate__animated animate__bounceIn"
         />
       </div>
     </section>

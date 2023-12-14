@@ -21,22 +21,22 @@ const Tokenomics = () => {
           Tokenomics
         </div>
         <div className="mb-8 grid w-full gap-8 sm:grid-cols-3">
-          <div className="flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="text-2xl font-bold sm:text-4xl">Symbol</div>
             <div className="text-xl sm:text-2xl">CF</div>
           </div>
 
-          <div className="flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="text-2xl font-bold sm:text-4xl">Tax</div>
             <div className="text-xl sm:text-2xl">0/0</div>
           </div>
 
-          <div className="flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div className="animate__animated animate__bounceIn  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
             <div className="text-2xl font-bold sm:text-4xl">Liquidity</div>
             <div className="text-xl sm:text-2xl">Locked</div>
           </div>
         </div>
-        <div className="flex w-full flex-wrap items-center justify-between gap-3 rounded-3xl border-4 border-[#f8f6ff] p-8">
+        <div className="flex w-full flex-wrap items-center justify-between gap-3 rounded-3xl border-4 border-[#f8f6ff] p-8 animate__animated animate__bounceIn">
           <div className="text-2xl font-bold sm:text-4xl">Token Address</div>
           <div className="flex items-center justify-end gap-4 overflow-hidden text-xl sm:text-2xl">
             <p className="truncate">
