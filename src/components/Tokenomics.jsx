@@ -16,16 +16,19 @@ const Tokenomics = () => {
   };
 
   const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation once
-    threshold: 0.2, // Adjust as needed
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
-  const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
+  const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
     <section id="tokenomics" className="token mb-[15.25rem]">
       <div className=" grad relative mx-auto flex w-full max-w-[1276px] flex-col items-center px-[15px]">
-        <div className="section_heading mb-16 flex w-full items-center justify-start gap-8">
+        <div
+          className={`${animationClass} section_heading mb-16 flex w-full items-center justify-start gap-8`}
+          ref={ref}
+        >
           Tokenomics
         </div>
         <div className="mb-8 grid w-full gap-8 sm:grid-cols-3">

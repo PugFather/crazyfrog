@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 const minusIcon = "-";
 const plusIcon = "+";
@@ -7,10 +8,18 @@ function Accordion({ title, content }) {
   const [expanded, setExpanded] = useState(false);
   const toggleExpanded = () => setExpanded((current) => !current);
 
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+
+  const animationClass = inView ? "animate__animated animate__bounceIn" : "";
+
   return (
     <div
-      className="list__block cursor-pointer rounded-3xl border-4 border-[#f8f6ff]"
+      className={`${animationClass} list__block cursor-pointer rounded-3xl border-4 border-[#f8f6ff]`}
       onClick={toggleExpanded}
+      ref={ref}
     >
       <div className="flex w-full items-center justify-between p-8 text-4xl font-bold">
         <h5 className="flex-1">{title}</h5>

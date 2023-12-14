@@ -70,9 +70,9 @@ section.features .grad::before {
   opacity: 0.2;
   background: linear-gradient(
     99deg,
-    #40c9a2 1.93%,
-    #3e54c8 47.51%,
-    #40c9a2 96.04%
+    #e5f9e0 1.93%,
+    #40c9a2 47.51%,
+    #2f9c95 96.04%
   );
   filter: blur(108.0999984741px);
   z-index: -1;
@@ -89,7 +89,7 @@ section.features .grad::after {
   width: 100%;
   border-radius: 702.76px;
   opacity: 0.2;
-  background: #2ebae6;
+  background: #40c9a2;
   filter: blur(108.0999984741px);
   z-index: -1;
 }
@@ -102,7 +102,7 @@ section.token .grad::after {
   opacity: 0.26;
   background: var(
     --Linear,
-    linear-gradient(99deg, #2ee6a6 1.93%, #3e54c8 47.51%, #2f9c95 96.04%)
+    linear-gradient(99deg, #e5f9e0 1.93%, #40c9a2 47.51%, #2f9c95 96.04%)
   );
   position: absolute;
   filter: blur(108.0999984741px);
@@ -142,7 +142,7 @@ footer::after {
   opacity: 0.26;
   background: var(
     --Linear,
-    linear-gradient(99deg, #358db7 1.93%, #40607f 47.51%, #00cda7 96.04%)
+    linear-gradient(99deg, #a3f7b5 1.93%, #40c9a2 47.51%, #2f9c95 96.04%)
   );
   filter: blur(108.0999984741px);
   max-width: 1744.768px;

@@ -1,5 +1,6 @@
 import React from "react";
 import Accordion from "./Accordion";
+import { useInView } from "react-intersection-observer";
 
 const Faq = () => {
   const faqItems = [
@@ -19,10 +20,18 @@ const Faq = () => {
     // Add more items as needed
   ];
 
+  
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+
+  const animationClass = inView ? "animate__animated animate__bounceIn" : "";
+
   return (
     <section className="mb-[15.25rem] overflow-hidden lg:mb-[22rem]">
       <div className="mx-auto w-full max-w-[1276px] px-[15px]">
-        <div className="section_heading mb-16 flex w-full items-end justify-start gap-8">
+        <div className={`${animationClass} section_heading mb-16 flex w-full items-end justify-start gap-8`} ref={ref}>
           FAQ
           <svg
             xmlns="http://www.w3.org/2000/svg"

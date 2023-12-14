@@ -1,14 +1,28 @@
 import React from "react";
+import { useInView } from "react-intersection-observer";
 
 const Features = () => {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+    threshold: 0.2,
+  });
+
+  const animationClass = inView ? "animate__animated animate__bounceIn" : "";
+
   return (
     <section className="features mb-[17rem]">
       <div className="grad relative mx-auto w-full max-w-[1276px] px-[15px]">
-        <div className="section_heading mb-16 flex items-end justify-start gap-8">
+        <div
+          className={`${animationClass} section_heading mb-16 flex items-end justify-start gap-8`}
+          ref={ref}
+        >
           Features
         </div>
         <div className="grid gap-8 sm:grid-cols-3">
-          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            className={`${animationClass} flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+            ref={ref}
+          >
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +62,10 @@ const Features = () => {
               </svg>
             </a>
           </div>
-          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            className={`${animationClass} flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+            ref={ref}
+          >
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +104,10 @@ const Features = () => {
               </svg>
             </a>
           </div>
-          <div className="animate__animated animate__bounceIn flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8">
+          <div
+            className={`${animationClass} flex w-full flex-col items-start justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
+            ref={ref}
+          >
             <div className="mb-9 flex flex-col items-start gap-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
