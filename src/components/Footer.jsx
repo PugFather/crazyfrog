@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../assets/crazyfrog.png";
 import X from "../assets/social_x.png";
 import Tg from "../assets/social_tg.png";
+import R from "../assets/social_r.png";
 import Image from "../assets/img_about.png";
 
 const Footer = () => {
@@ -17,11 +18,22 @@ const Footer = () => {
           Let's get crazy together with $CF.
         </div>
         <div className="mb-20 flex items-center justify-start gap-4">
-          <a href="" target="_blank">
+          <a
+            href="https://x.com/CrazyFrog_sol"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img src={X} className="w-16" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://t.me/crazyfrog_sol" rel="noreferrer" target="_blank">
             <img src={Tg} className="w-16" />
+          </a>
+          <a
+            href="https://www.reddit.com/user/CrazyFrog-sol"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img src={R} className="w-16" />
           </a>
         </div>
         <div className="-z-20 flex w-full items-center justify-start gap-16 border-t border-t-[#3d4148] py-8 text-xl opacity-50">
