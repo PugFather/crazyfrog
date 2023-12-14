@@ -9,6 +9,7 @@ import Social from "./Social";
 import Faq from "./Faq";
 import Accordion from "./Accordion";
 import Footer from "./Footer";
+import MayanWidget from "./MayanWidget";
 
 export {
   Navigation,
@@ -22,4 +23,5 @@ export {
   Faq,
   Accordion,
   Footer,
+  MayanWidget,
 };
