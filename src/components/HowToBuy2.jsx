@@ -13,7 +13,10 @@ const HowToBuy2 = () => {
   return (
     <section className="mb-[15.25rem] overflow-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-center justify-center gap-10 px-[15px] sm:flex-row sm:items-start">
-        <MayanWidget />
+        <div className="order-2 sm:order-1">
+          <MayanWidget />
+        </div>
+
         <div
           ref={ref}
           className={`${animationClass} order-1 flex w-full max-w-[38.35rem] flex-col items-start gap-8 sm:order-2`}
