@@ -27,6 +27,20 @@ header .header__links {
   gap: 64px;
 }
 
+section.comment .content::after {
+  content: "";
+  max-width: 250px;
+  width: 100%;
+  height: 250px;
+  background: #a3f7b5;
+  opacity: 0.2;
+  filter: blur(108.0999984741px);
+  border-radius: 250px;
+  position: absolute;
+  top: -125px;
+  left: -125px;
+}
+
 @media screen and (max-width: 640px) {
   header .header__links {
     transform: translateY(-102%);

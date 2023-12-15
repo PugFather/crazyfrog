@@ -3,6 +3,7 @@ import {
   Navigation,
   Hero,
   About,
+  Comment,
   HowToBuy,
   HowToBuy2,
   Features,
@@ -18,6 +19,7 @@ const Home = () => {
       <Navigation />
       <Hero />
       <About />
+      <Comment />
       <HowToBuy />
       <HowToBuy2 />
       <Features />
