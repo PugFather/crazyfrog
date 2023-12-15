@@ -42,7 +42,12 @@ const Hero = () => {
               ></path>
             </svg>
           </a>
-          <a className="flex w-full cursor-pointer items-center justify-center rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff] hover:text-[#050505] sm:w-fit">
+          <a
+            href="https://t.me/crazyfrog_sol"
+            rel="noreferrer"
+            target="_blank"
+            className="flex w-full cursor-pointer items-center justify-center rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff] hover:text-[#050505] sm:w-fit"
+          >
             Learn more
           </a>
         </div>

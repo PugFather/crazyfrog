@@ -31,8 +31,11 @@ const HowToBuy = () => {
             className={`flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row ${animationClass}`}
             ref={ref}
           >
-            <a className="group flex w-full grow cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:bg-[#f8f6ff] sm:w-fit">
-              <span className="group-hover:text-[#050505]">Learn more</span>
+            <a
+              href="https://phantom.app/"
+              className="group flex w-full grow cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300  hover:bg-[#f8f6ff] sm:w-fit"
+            >
+              <span className="group-hover:text-[#050505]">Get Phantom</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
