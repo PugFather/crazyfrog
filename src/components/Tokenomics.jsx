@@ -31,7 +31,7 @@ const Tokenomics = () => {
         >
           Tokenomics
         </div>
-        <div className="mb-8 grid w-full gap-8 sm:grid-cols-3">
+        <div className="mb-8 grid w-full gap-8 md:grid-cols-3">
           <div
             ref={ref}
             className={`${animationClass}  flex w-full items-center justify-between rounded-3xl border-4 border-[#f8f6ff] p-8`}
