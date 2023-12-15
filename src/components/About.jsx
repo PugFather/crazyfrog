@@ -32,13 +32,13 @@ const About = () => {
             Solana ecosystem. Beyond a mere digital asset, CrazyFrog signifies a
             movement rooted in creativity and community inclusivity. It stands
             as a testament to Solana's potential for innovation and aims to
-            redefine engagement within the platform. sphere.
+            redefine engagement within the platform.
             <br />
             <br />
             <br />
             $CF intertwines Crazy Frog's spirited history with Solana's
             boundless possibilities, championing unity, innovation, and the
-            evolving spirit of the crypto
+            evolving spirit of the crypto sphere.
           </div>
         </div>
       </div>
