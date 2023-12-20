@@ -4,16 +4,16 @@ import { useInView } from "react-intersection-observer";
 
 const HowToBuy = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation once
-    threshold: 0.2, // Adjust as needed
+    triggerOnce: true, 
+    threshold: 0.2,
   });
 
   const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
     <section className="mb-[8rem] md:mb-2">
-      <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
-        <div className="flex grow flex-col items-start gap-8">
+      <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start px-[15px] md:flex-row">
+        <div className="flex flex-col items-start gap-8">
           <div className={`${animationClass} section_heading`} ref={ref}>
             How to buy $CF
           </div>
@@ -23,7 +23,10 @@ const HowToBuy = () => {
             className={`${animationClass} ml-10 w-full max-w-xl overflow-hidden sm:ml-20 md:hidden`}
             ref={ref}
           />
-          <div className={`${animationClass} -mt-20 text-xl md:mt-0`} ref={ref}>
+          <div
+            className={`${animationClass} -mt-20 text-xl md:mt-0 lg:w-10/12`}
+            ref={ref}
+          >
             To buy $CF, get phantom wallet, Purchase $SOL and send it to your
             Phantom wallet. Then simply swap $SOL to $CF on Raydium.
           </div>

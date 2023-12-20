@@ -4,11 +4,11 @@ import { useInView } from "react-intersection-observer";
 
 const HowToBuy2 = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation once
-    threshold: 0.2, // Adjust as needed
+    triggerOnce: true,
+    threshold: 0.2,
   });
 
-  const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
+  const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
     <section className="mb-[15.25rem] overflow-hidden">

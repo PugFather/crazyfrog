@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo2.png";
 import { Transition } from "@headlessui/react";
 
 import X from "../assets/social_x.png";

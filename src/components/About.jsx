@@ -11,12 +11,12 @@ const About = () => {
   const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
 
   return (
-    <section className="mb-[15.25rem]  overflow-hidden">
-      <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start justify-between gap-5 px-[15px] md:flex-row">
+    <section className="mb-[14.25rem]  overflow-hidden">
+      <div className="mx-auto flex w-full max-w-[1276px] flex-col items-center justify-between gap-5 px-[15px] md:flex-row">
         <img
           src={Image}
           alt="crazyfrog"
-          className={`${animationClass} -mt-10 w-full max-w-[32.25rem]`}
+          className={`${animationClass} -mt-10 w-full max-w-[40rem]`}
           ref={ref}
         />
         <div
@@ -33,7 +33,6 @@ const About = () => {
             movement rooted in creativity and community inclusivity. It stands
             as a testament to Solana's potential for innovation and aims to
             redefine engagement within the platform.
-            <br />
             <br />
             <br />
             $CF intertwines Crazy Frog's spirited history with Solana's
