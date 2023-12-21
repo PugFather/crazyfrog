@@ -23,7 +23,7 @@ const Tokenomics = () => {
   const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
-    <section id="tokenomics" className="token mb-[15.25rem]">
+    <section id="tokenomics" className="token mb-[18.25rem]">
       <div className=" grad relative mx-auto flex w-full max-w-[1276px] flex-col items-center px-[15px]">
         <div
           className={`${animationClass} section_heading mb-16 flex w-full items-center justify-start gap-8`}

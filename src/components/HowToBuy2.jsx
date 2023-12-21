@@ -11,7 +11,7 @@ const HowToBuy2 = () => {
   const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
-    <section className="mb-[15.25rem] overflow-hidden">
+    <section className="mb-[18.25rem] overflow-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-center justify-center gap-10 px-[15px] sm:flex-row sm:items-start">
         <div
           ref={ref}

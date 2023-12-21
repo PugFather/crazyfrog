@@ -11,7 +11,7 @@ const About = () => {
   const animationClass = inView ? "animate__animated animate__bounceIn" : ""; // Your desired animation class
 
   return (
-    <section className="mb-[14.25rem]  overflow-hidden">
+    <section className="mb-[18.25rem]  overflow-hidden">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-center justify-between gap-5 px-[15px] md:flex-row">
         <img
           src={Image}

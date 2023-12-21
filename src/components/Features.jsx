@@ -10,7 +10,7 @@ const Features = () => {
   const animationClass = inView ? "animate__animated animate__bounceIn" : "";
 
   return (
-    <section className="features mb-[17rem]">
+    <section className="features mb-[18rem]">
       <div className="grad relative mx-auto w-full max-w-[1276px] px-[15px]">
         <div
           className={`${animationClass} section_heading mb-16 flex items-end justify-start gap-8`}
