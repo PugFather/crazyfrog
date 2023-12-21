@@ -7,13 +7,9 @@ const Hero = () => {
   return (
     <section className="mb-[10.25rem] mt-[16.25rem] md:mb-[22rem]">
       <div className="relative mx-auto flex w-full max-w-[1276px] flex-col items-start px-[15px]">
-        <div className="absolute right-0 top-[-160px] -z-10 w-full max-w-[720px]">
+        <div className="animate__animated animate__bounceIn absolute right-0 top-[-160px] -z-10 w-full max-w-[720px]">
           <img src={Grad} className="absolute inset-0 -z-20" />
-          <img
-            src={Image}
-            alt="crazyfrog"
-            className="animate__animated animate__bounceIn w-full"
-          />
+          <img src={Image} alt="crazyfrog" className="w-full" />
         </div>
 
         <h2 className="animate__animated animate__bounceIn mt-24 text-[2.875rem] font-bold md:mt-0 md:text-7xl">

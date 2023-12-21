@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer";
 
 const HowToBuy = () => {
   const [ref, inView] = useInView({
-    triggerOnce: true, 
+    triggerOnce: true,
     threshold: 0.2,
   });
 
@@ -13,6 +13,12 @@ const HowToBuy = () => {
   return (
     <section className="mb-[8rem] md:mb-2">
       <div className="mx-auto flex w-full max-w-[1276px] flex-col items-start px-[15px] md:flex-row">
+        <img
+          src={Image}
+          alt="crazyfrog"
+          className={`${animationClass} -mr-32 -mt-36 hidden max-w-2xl grow md:block`}
+          ref={ref}
+        />
         <div className="flex flex-col items-start gap-8">
           <div className={`${animationClass} section_heading`} ref={ref}>
             How to buy $CF
@@ -70,12 +76,6 @@ const HowToBuy = () => {
             </a>
           </div>
         </div>
-        <img
-          src={Image}
-          alt="crazyfrog"
-          className={`${animationClass} -mr-32 -mt-36 hidden max-w-2xl grow md:block`}
-          ref={ref}
-        />
       </div>
     </section>
   );

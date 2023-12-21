@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Logo from "../assets/logo2.png";
+import Logo from "../assets/logo.png";
 import { Transition } from "@headlessui/react";
 
 import X from "../assets/social_x.png";
@@ -51,8 +51,8 @@ const Navbar = () => {
       ref={navbar}
     >
       <nav className="mx-auto flex w-full max-w-[1276px] items-center justify-between lg:gap-24">
-        <a href="/" className="w-[17rem] cursor-pointer hover:opacity-90">
-          <img src={Logo} className="w-full" />{" "}
+        <a href="/" className="cursor-pointer hover:opacity-90">
+          <img src={Logo} className="h-full max-h-24 sm:max-h-28" />
         </a>
 
         {/* Desktop Navlinks */}
@@ -86,12 +86,12 @@ const Navbar = () => {
             href="/"
             className="border-{#f8f6ff} links__link bottom-3 shrink-0 rounded-3xl border-2 border-solid px-5 py-[14px] text-[20px] font-normal hover:bg-[#f8f6ff] hover:text-[#050505]"
           >
-            Join Telegram
+            Join the community
           </a>
         </div>
 
         {/* Mobile Navlinks */}
-        <div className="lg:hidden">
+        <div className="transition-all lg:hidden">
           {isOpen ? (
             <svg
               onClick={() => setIsOpen(!isOpen)}
