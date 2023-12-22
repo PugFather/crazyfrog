@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="flex items-center justify-center rounded-t-[80px] border-t-4 border-t-[#f8f6ff]">
       <div className="relative z-0 flex w-full max-w-[1276px] flex-col items-center px-[15px] pb-[600px] pt-[7.375rem] sm:items-start sm:pb-0">
-        <div className="mb-5 flex w-full max-w-[48.25rem] flex-col items-center justify-center gap-16 text-center sm:flex-row sm:items-start sm:text-left">
+        <div className="mb-10 flex w-full max-w-[48.25rem] flex-col items-center justify-center gap-10 text-center sm:flex-row sm:items-start sm:gap-16 sm:text-left md:mb-0">
           <img src={Logo} className="w-64" alt="logo" />
           Jump into the CrazyFrog community, where we celebrate the enduring
           legacy of Crazy Frog. Embrace the fun and inclusivity while
@@ -17,7 +17,7 @@ const Footer = () => {
           and community engagement. <br />
           Let's get crazy together with $CF.
         </div>
-        <div className="mb-20 flex items-center justify-start gap-4">
+        <div className="mb-16 flex items-center justify-start gap-4 md:-mt-12">
           <a
             href="https://x.com/CrazyFrog_sol"
             rel="noreferrer"
