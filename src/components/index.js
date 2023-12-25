@@ -7,6 +7,7 @@ import HowToBuy2 from "./HowToBuy2";
 import Features from "./Features";
 import Tokenomics from "./Tokenomics";
 import Social from "./Social";
+import WhyChoose from "./Why";
 import Faq from "./Faq";
 import Accordion from "./Accordion";
 import Footer from "./Footer";
@@ -26,4 +27,5 @@ export {
   Accordion,
   Footer,
   MayanWidget,
+  WhyChoose,
 };

@@ -11,6 +11,7 @@ import {
   Social,
   Faq,
   Footer,
+  WhyChoose,
 } from "../components";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
       <Features />
       <Tokenomics />
       <Social />
+      <WhyChoose />
       <Faq />
       <Footer />
     </>
