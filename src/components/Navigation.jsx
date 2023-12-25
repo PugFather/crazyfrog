@@ -189,7 +189,7 @@ const Navbar = () => {
                 Whitepaper
               </a>
               <a
-                href="https://crazyairdrop.vercel.app/"
+                href="https://airdrop.crafyfrog.meme"
                 className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
               >
                 Airdrop
