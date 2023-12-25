@@ -76,7 +76,7 @@ const Navbar = () => {
             Tokenomics
           </a>
           <a
-            href="https://drive.google.com/file/d/19FvRWZRX0Y2zlx4EyJNMbT2HTHkO13An/view?usp=sharing"
+            href="https://drive.google.com/u/1/uc?id=19FvRWZRX0Y2zlx4EyJNMbT2HTHkO13An&export=download"
             className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
           >
             Whitepaper
@@ -183,7 +183,7 @@ const Navbar = () => {
                 Tokenomics
               </a>
               <a
-                href="https://drive.google.com/file/d/19FvRWZRX0Y2zlx4EyJNMbT2HTHkO13An/view?usp=sharing"
+                href="https://drive.google.com/u/1/uc?id=19FvRWZRX0Y2zlx4EyJNMbT2HTHkO13An&export=download"
                 className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
               >
                 Whitepaper
