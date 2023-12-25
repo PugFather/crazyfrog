@@ -3,7 +3,7 @@ import Logo from "../assets/crazyfrog.png";
 import X from "../assets/social_x.png";
 import Tg from "../assets/social_tg.png";
 import R from "../assets/social_r.png";
-import Image from "../assets/img_about.png";
+import Image from "../assets/img_about.webp";
 
 const Footer = () => {
   return (

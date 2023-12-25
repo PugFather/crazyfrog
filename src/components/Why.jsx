@@ -1,5 +1,5 @@
 import React from "react";
-import choose1 from "../assets/choose_1.png";
+import choose1 from "../assets/choose_1.webp";
 import choose2 from "../assets/choose_2.svg";
 import choose3 from "../assets/choose_3.svg";
 import choose4 from "../assets/choose_4.svg";

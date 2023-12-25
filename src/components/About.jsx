@@ -1,6 +1,6 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
-import Image from "../assets/img_about.png";
+import Image from "../assets/img_about.webp";
 
 const About = () => {
   const [ref, inView] = useInView({

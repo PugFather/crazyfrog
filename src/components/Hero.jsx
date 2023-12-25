@@ -1,6 +1,6 @@
 import React from "react";
-import Image from "../assets/img_hero.png";
-import Grad from "../assets/hero_grad.png";
+import Image from "../assets/img_hero.webp";
+import Grad from "../assets/hero_grad.webp";
 import CrazyFrog from "../assets/crazyfrog.png";
 
 const Hero = () => {
