@@ -22,7 +22,7 @@ const Home = () => {
       <About />
       <Comment />
       <HowToBuy />
-      <HowToBuy2 />
+      {/* <HowToBuy2 /> */}
       <Features />
       <Tokenomics />
       <Social />
