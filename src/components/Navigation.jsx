@@ -64,26 +64,32 @@ const Navbar = () => {
             Home
           </a>
           <a
-            href="about"
+            href="#about"
             className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
           >
             About
           </a>
           <a
-            href="tokenomics"
+            href="#tokenomics"
             className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
           >
             Tokenomics
           </a>
           <a
-            href="whitepaper"
+            href="#whitepaper"
             className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
           >
             Whitepaper
           </a>
+          <a
+            href="https://crazyairdrop.vercel.app/"
+            className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
+          >
+            Airdrop
+          </a>
 
           <a
-            href="/"
+            href="https://t.me/crazyfrog_sol"
             className="border-{#f8f6ff} links__link bottom-3 shrink-0 rounded-3xl border-2 border-solid px-5 py-[14px] text-[20px] font-normal hover:bg-[#f8f6ff] hover:text-[#050505]"
           >
             Join the community
@@ -171,20 +177,26 @@ const Navbar = () => {
                 About
               </a>
               <a
-                href="tokenomics"
+                href="#tokenomics"
                 className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
               >
                 Tokenomics
               </a>
               <a
-                href="whitepaper"
+                href="#whitepaper"
                 className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
               >
                 Whitepaper
               </a>
+              <a
+                href="https://crazyairdrop.vercel.app/"
+                className="text-4xl font-normal hover:opacity-50 md:text-[20px]"
+              >
+                Airdrop
+              </a>
 
               <a
-                href="/"
+                href="https://t.me/crazyfrog_sol"
                 className="border-{#f8f6ff} w-full rounded-3xl border-2 px-5 py-[14px] text-center text-[20px] font-normal hover:bg-[#f8f6ff] hover:text-[#050505]"
               >
                 Join the community
