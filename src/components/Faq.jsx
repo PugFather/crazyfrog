@@ -7,7 +7,7 @@ const Faq = () => {
     {
       title: "How do I Buy and Sell $CF?",
       content:
-        "Trade $CF on our listed Centralised Exchanges or Decentralised Exchanges like Raydium and Jupiter. You can also Buy from our website with Mayan",
+        "Trade $CF on our listed Centralised Exchanges or Decentralised Exchanges like Raydium and Jupiter.",
     },
     {
       title: "Is there a $CF whitepaper or roadmap available?",
@@ -20,7 +20,6 @@ const Faq = () => {
     // Add more items as needed
   ];
 
-  
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -31,7 +30,10 @@ const Faq = () => {
   return (
     <section className="mb-[15.25rem] overflow-hidden lg:mb-[22rem]">
       <div className="mx-auto w-full max-w-[1276px] px-[15px]">
-        <div className={`${animationClass} section_heading mb-16 flex w-full items-end justify-start gap-8`} ref={ref}>
+        <div
+          className={`${animationClass} section_heading mb-16 flex w-full items-end justify-start gap-8`}
+          ref={ref}
+        >
           FAQ
           <svg
             xmlns="http://www.w3.org/2000/svg"
