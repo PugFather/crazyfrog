@@ -62,9 +62,7 @@ const Tokenomics = () => {
         >
           <div className="text-2xl font-bold sm:text-4xl">Token Address</div>
           <div className="flex items-center justify-end gap-4 overflow-hidden text-xl sm:text-2xl">
-            <p className="truncate">
-              HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4
-            </p>
+            <p className="truncate">coming soon...</p>
 
             <svg
               onClick={copyContent}
