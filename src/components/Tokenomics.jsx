@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 
 const Tokenomics = () => {
   const copyContent = () => {
-    const address = "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"; // Address to copy
+    const address = "..."; // Address to copy
     const el = document.createElement("textarea");
     el.value = address;
     el.setAttribute("readonly", "");
