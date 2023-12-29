@@ -203,7 +203,7 @@ const Navbar = () => {
               </a>
               <div className="mb-20 flex w-full items-center justify-center gap-4">
                 <a
-                  href="https://x.com/CrazyFrog_sol"
+                  href="https://x.com/CrazyFrog_s0l"
                   rel="noreferrer"
                   target="_blank"
                 >

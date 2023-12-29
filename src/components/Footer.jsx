@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className="mb-16 flex items-center justify-start gap-4 md:-mt-12">
           <a
-            href="https://x.com/CrazyFrog_sol"
+            href="https://x.com/CrazyFrog_s0l"
             rel="noreferrer"
             target="_blank"
           >
