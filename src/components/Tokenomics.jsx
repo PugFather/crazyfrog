@@ -3,7 +3,7 @@ import { useInView } from "react-intersection-observer";
 
 const Tokenomics = () => {
   const copyContent = () => {
-    const address = "..."; // Address to copy
+    const address = "774jf4PXqodz9RW4R775VbsZybJPwpPCLYTfj46pJgMb"; // Address to copy
     const el = document.createElement("textarea");
     el.value = address;
     el.setAttribute("readonly", "");
@@ -62,7 +62,7 @@ const Tokenomics = () => {
         >
           <div className="text-2xl font-bold sm:text-4xl">Token Address</div>
           <div className="flex items-center justify-end gap-4 overflow-hidden text-xl sm:text-2xl">
-            <p className="truncate">coming soon...</p>
+            <p className="truncate">774jf4PXqodz9RW4R775VbsZybJPwpPCLYTfj46pJgMb</p>
 
             <svg
               onClick={copyContent}
