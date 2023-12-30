@@ -16,7 +16,7 @@ const Tokenomics = () => {
   };
 
   const [ref, inView] = useInView({
-    triggerOnce: true
+    triggerOnce: true,
     threshold: 0.2,
   });
 
