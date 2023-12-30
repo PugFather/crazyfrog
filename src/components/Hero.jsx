@@ -23,7 +23,11 @@ const Hero = () => {
           Frog.
         </h3>
         <div className="animate__animated animate__bounceIn flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row sm:justify-center">
-          <a className="flex w-full cursor-pointer items-center justify-center gap-[10px] rounded-3xl bg-[#f8f6ff] px-5 py-[0.875rem] text-xl font-medium text-[#050505] transition-all duration-300 hover:opacity-50 sm:w-fit">
+          <a
+            href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=774jf4PXqodz9RW4R775VbsZybJPwpPCLYTfj46pJgMb&fixed=in"
+            rel="noreferrer"
+            className="flex w-full cursor-pointer items-center justify-center gap-[10px] rounded-3xl bg-[#f8f6ff] px-5 py-[0.875rem] text-xl font-medium text-[#050505] transition-all duration-300 hover:opacity-50 sm:w-fit"
+          >
             Buy on Raydium{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
