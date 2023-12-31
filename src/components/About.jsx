@@ -25,19 +25,17 @@ const About = () => {
         >
           <div className="section_heading">About $CF</div>
           <div className="text-xl ">
-            CrazyFrog on Solana ($CF) is a vibrant homage to the iconic Crazy
-            Frog legacy dating back to 2003. Embracing the enthusiasm of the
-            Crazy Frog fanbase, $CF welcomes those who value its cultural
-            significance, aiming to amplify its presence within the dynamic
-            Solana ecosystem. Beyond a mere digital asset, CrazyFrog signifies a
-            movement rooted in creativity and community inclusivity. It stands
-            as a testament to Solana's potential for innovation and aims to
-            redefine engagement within the platform.
+            CrazyFrog on Solana ($CF) embodies the vibrant legacy of Crazy Frog,
+            tracing back to 2003. Beyond a digital asset, $CF is a movement
+            driven by community inclusivity and creativity. It celebrates the
+            spirited history of Crazy Frog while championing unity within the
+            dynamic Solana ecosystem.
             <br />
             <br />
-            $CF intertwines Crazy Frog's spirited history with Solana's
-            boundless possibilities, championing unity, innovation, and the
-            evolving spirit of the crypto sphere.
+            At $CF, our mission extends beyond a cryptocurrency. We strive to
+            redefine accessibility and engagement within the digital currency
+            realm, fostering a community-driven experience rooted in simplicity,
+            security, and inclusivity.
           </div>
         </div>
       </div>

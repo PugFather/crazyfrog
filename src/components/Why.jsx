@@ -33,37 +33,37 @@ const Why = () => {
               className="w-full max-w-[218px]"
               alt="crazyfrog"
             />
-            Viral by Design
-            <br /> CrazyFrog exudes a contagious energy, naturally blending into
-            viral trends, and igniting a cultural sensation within the crypto
-            realm.
+            Viral by Design:
+            <br />
+            $CF embodies contagious energy, seamlessly blending into viral
+            trends, and sparking a cultural sensation within the crypto realm.
           </div>
           <div
             className={`${animationClass} flex w-full flex-col items-start gap-5 text-xl sm:mt-[8.25rem]`}
             ref={ref}
           >
             <img src={choose2} alt="choose_2" />
-            $CF will be more than just a memecoin, featuring several unique use
-            cases and utilities that are beneficial to the long term growth of
-            the Solana Ecosystem.
+            Community-Driven: <br />
+            Embracing a community-focused approach, $CF aims to offer unique use
+            cases and utilities beneficial for Solana's long-term growth.
           </div>
           <div
-            className={`${animationClass} flex w-full flex-col items-start gap-5 text-xl sm:mt-52`}
+            className={`${animationClass} flex w-full flex-col items-start gap-5 text-xl sm:mt-60`}
             ref={ref}
           >
             <img src={choose3} alt="choose3" />
-            The CrazyFrog phenomenon stands out as a unique force within the
-            Solana landscape, uniting crypto enthusiasts and fostering a vibrant
-            community unlike any other.
+            Unique Force: <br />
+            The CrazyFrog phenomenon unites crypto enthusiasts, fostering a
+            vibrant community unlike any other within the Solana landscape.
           </div>
           <div
             className={`${animationClass} flex w-full flex-col items-start gap-5 text-xl sm:mt-20`}
             ref={ref}
           >
             <img src={choose4} alt="choose4" />
-            With the Solana blockchain and coin making a huge return over the
-            last few months, it’s time for CrazyFrog to come in and set the
-            stardard for memecoins on Solana. There's a new frog in town.
+            Setting the Standard: <br />
+            With Solana's resurgence, $CF arrives to set the bar for meme coins
+            on the blockchain, infusing the space with new energy.
           </div>
         </div>
       </div>

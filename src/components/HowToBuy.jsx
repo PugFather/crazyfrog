@@ -33,8 +33,8 @@ const HowToBuy = () => {
             className={`${animationClass} -mt-20 text-xl md:mt-0 lg:w-10/12`}
             ref={ref}
           >
-            To buy $CF, get phantom wallet, Purchase $SOL and send it to your
-            Phantom wallet. Then simply swap $SOL to $CF on Raydium.
+            Purchasing $CF is seamless: Get a Phantom wallet, acquire $SOL, send
+            it to your Phantom wallet, and swap $SOL for $CF on Raydium.
           </div>
           <div
             className={`flex w-full flex-col items-center justify-start gap-4 sm:w-fit sm:flex-row ${animationClass}`}

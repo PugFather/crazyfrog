@@ -65,9 +65,8 @@ const Features = () => {
               </svg>
               <div className="text-4xl font-bold">CrazyBot</div>
               <div className="text-xl">
-                CrazyFrog's innovative "Degen Mode" in its CrazyBot scrutinizes
-                new tokens, offering real-time insights to shield users from
-                scams and rug pulls, ensuring safer investments in the dynamic
+                Empowering users with real-time insights, CrazyFrog's innovative
+                "Degen Mode" within the CrazyBot safeguards investments in the
                 crypto market.
               </div>
             </div>
@@ -108,9 +107,9 @@ const Features = () => {
               </svg>
               <div className="text-4xl font-bold">Staking</div>
               <div className="text-xl">
-                Seamlessly stake $CF coins for amplified returns while actively
-                contributing to Solana's decentralization, providing hassle-free
-                and secure investment opportunities.
+                Stake $CF for amplified returns, contribute to Solana's
+                decentralization, and anticipate further utilities tailored to
+                evolving user needs.
               </div>
             </div>
             <a className="group flex cursor-pointer items-center justify-center gap-[10px] rounded-3xl border-2 px-5 py-[0.875rem] text-xl font-medium transition-all duration-300 hover:bg-[#f8f6ff]">

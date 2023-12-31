@@ -6,16 +6,16 @@ const Faq = () => {
   const faqItems = [
     {
       title: "How do I Buy and Sell $CF?",
-      content:
-        "Trade $CF on our listed Centralised Exchanges or Decentralised Exchanges like Raydium and Jupiter.",
+      content: "Obtain $CF on Raydium after setting up a Phantom wallet.",
     },
     {
       title: "Is there a $CF whitepaper or roadmap available?",
-      content: "Yes, you can access our whitepaper [here]",
+      content:
+        "Stay tuned for updates on our roadmap, the whitepaper can b found [here]",
     },
     {
       title: "Will $CF list on more CEX's?",
-      content: "Yes, $CF will soon be available on major worldwide exchanges.",
+      content: "Yes, $CF will expand its listing on more CEXs.",
     },
     // Add more items as needed
   ];
