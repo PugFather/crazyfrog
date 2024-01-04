@@ -26,7 +26,7 @@ const Social = () => {
           <div className="section_heading mb-8">Follow CF on social media</div>
           <div className="flex items-center justify-start gap-4">
             <a
-              href="https://x.com/CrazyFrog_s0l"
+              href="https://x.com/CrazyFrog_sol"
               rel="noreferrer"
               target="_blank"
             >
